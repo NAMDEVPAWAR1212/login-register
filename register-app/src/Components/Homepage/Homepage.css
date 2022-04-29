@@ -1,0 +1,22 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px gray;
+    background: white;
+    position: relative;
+}
+.homepage >.button {
+    background: blue;
+    border: 1px solid blueviolet;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
